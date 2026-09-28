@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jobs": {
+      "type": "http",
+      "url": "https://obot.pwrs.dev/mcp-connect/vmcp14x6r8"
+    }
+  }
+}
