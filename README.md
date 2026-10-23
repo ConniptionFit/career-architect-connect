@@ -9,6 +9,8 @@ One install for the Jobs job-search assistant: a small launcher skill and the Jo
 
 You need to be added by the administrator first: Obot shows nothing to anyone it does not know. Use one install path: this plugin, or a copy of the skill, not both.
 
-## Keeping the context window small
+This plugin's connector address is fixed to one administrator's Obot instance. It only works for the group that
+administrator runs it for; it is not a way to reach anyone else's deployment, including the original
+`career-architect` project's own. Anyone who wants to run this for a different group builds their own copy of this
+plugin from their own Jobs vMCP address (`career-architect`'s `docs/FORKING.md`).
 
-The connector returns full document payloads. The launcher tells the assistant to delegate heavy reads (facts, scoring, linting, broad listings) to a subagent that returns a short digest, never to echo raw tool output, and to read one document at a time when no subagent tool exists. The rules and standard subagent prompts are in `skills/jobs/references/delegation.md` and `skills/jobs/templates/`. Additions for the server-side guides are in `skills/jobs/server-drafts/` for the administrator to publish. Plugin changes reach people when they update the plugin; guide changes reach everyone once published.
