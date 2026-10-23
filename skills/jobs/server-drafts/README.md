@@ -10,4 +10,6 @@ Written against Jobs server `skill_version` 2.3.0. Check each insertion point ag
 | `score.md.addendum.md` | `workflows/score.md`, before step 1, and a line after step 3 |
 | `storage.md.addendum.md` | `references/storage.md`, new section before "Limits the server enforces" |
 
+Step-by-step publishing, checks and rollback are in `PUBLISHING.md`.
+
 Users on older plugin copies do not have the bundled templates. The addenda therefore carry the essential rules in a self-contained form and refer to the templates only as "where available".
